@@ -97,6 +97,10 @@ GetDataTotal();
         arraydatacontainer=[];
     }
     submit.addEventListener('click',()=>{
+                if (price.value ==''&& category.value=='' ) {
+            alert('Please Add Product');
+            return;
+        }
         for (let index = 0; index < arraydatacontainer.length; index++) {
 
             let price_now1=  document.getElementById('price_now1');
