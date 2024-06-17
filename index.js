@@ -100,9 +100,12 @@ GetDataTotal();
         arraydatacontainer=[];
     }
     submit.addEventListener('click',()=>{
-                if (price.value ==''&& category.value=='' ) {
+                if (price.value =='') {
             alert('Please Add Product');
             return;
+        }else if(category.value==''){
+            alert('Plz add Category OF Product');
+            return
         }
         for (let index = 0; index < arraydatacontainer.length; index++) {
 
