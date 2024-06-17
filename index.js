@@ -75,7 +75,7 @@ const GetDataTotal=()=>{
             arrVariabls[index].disabled=true;
             total.style.backgroundColor='#ff0000';
             total.innerHTML='';
-                    alert(''Plz Add Proudct);
+                    alert('Plz Add Proudct');
         return
         }
     }else if (price!='') {
