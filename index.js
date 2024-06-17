@@ -88,7 +88,7 @@ const GetDataTotal=()=>{
 GetDataTotal();
 
 
-//// Clear Inputs 
+//// Clear Input
 
     let arraydatacontainer;
     if (localStorage.products!=null) {
