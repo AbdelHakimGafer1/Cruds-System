@@ -69,11 +69,14 @@ let modeSearch ='Title';
 const GetDataTotal=()=>{
 
     if (price.value =='') {
+
         for (let index = 0; index < arrVariabls.length; index++) {
             // console.log(arrVariabls[index]);
             arrVariabls[index].disabled=true;
             total.style.backgroundColor='#ff0000';
-            total.innerHTML=''
+            total.innerHTML='';
+                    alert(''Plz Add Proudct);
+        return
         }
     }else if (price!='') {
         for (let index = 0; index < arrVariabls.length; index++) {
